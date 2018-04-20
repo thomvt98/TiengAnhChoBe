@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/testter"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="10dp"
+
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/bai1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/mot" />
+
+        <ImageView
+            android:id="@+id/bai2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/hai" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/bai3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ba" />
+
+        <ImageView
+            android:id="@+id/bai4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/bon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/bai5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/nam" />
+
+        <ImageView
+            android:id="@+id/bai6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/sau" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/bai7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/bay" />
+
+        <ImageView
+            android:id="@+id/bai8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/tam" />
+    </LinearLayout>
+
+
+</LinearLayout>

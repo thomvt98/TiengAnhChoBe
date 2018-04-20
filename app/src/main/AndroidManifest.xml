@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vuthithom.tienganhchobe">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ChuyenManHinh">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="com.vuthithom.tienganhchobe.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".main.Activity_Start" />
+        <activity android:name=".main.Activity_Test" />
+        <activity android:name=".main.Activity_BangChu" />
+        <activity android:name=".main.Acitivity_BaiHoc" />
+        <activity android:name=".main.Activity_Color" />
+        <activity android:name=".main.Activity_DongVat" />
+        <activity android:name=".main.Activity_SoDem" />
+        <activity android:name=".main.Activity_Hoa" />
+        <activity android:name=".main.Activity_TruongHoc" />
+        <activity android:name=".main.ActivityQua" />
+        <activity android:name=".main.Activity_QuocGia" />
+        <activity android:name=".main.ActivityGioiThieu" />
+        <activity android:name=".main.ActVideo" />
+        <activity android:name=".main.ListenActivity" />
+        <activity android:name=".listen.Listen1Activity" />
+        <activity android:name=".listen.Listen2Activity" />
+        <activity android:name=".listen.Listen3Activity" />
+        <activity android:name=".listen.Listen4Activity" />
+        <activity android:name=".listen.Listen5Activity" />
+        <activity android:name=".listen.Listen6Activity" />
+        <activity android:name=".listen.Listen7Activity"></activity>
+        <activity android:name=".main.Act_BaiTestMot"></activity>
+        <activity android:name=".giaitri.Act_BaiTestHai"></activity>
+        <activity android:name=".giaitri.TestAdapter3"></activity>
+        <activity android:name=".giaitri.TestAdapter4"></activity>
+        <activity android:name=".giaitri.TestAdapter5"></activity>
+        <activity android:name=".giaitri.TestAdapter6"></activity>
+        <activity android:name=".giaitri.TestAdapter7"></activity>
+        <activity android:name=".giaitri.TestAdapter8"></activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/vvv"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:onClick="listen1">
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/sound" />
+
+            <TextView
+                android:text="Listen One"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="30dp"
+                android:textSize="22sp"
+                android:textColor="#9f0015" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:onClick="listen2">
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/sound" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:gravity="center"
+                android:text="Listen Two"
+                android:textSize="22sp"
+                android:textColor="#9f0015" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:onClick="listen3">
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/sound" />
+
+            <TextView
+                android:text="Listen Three"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="30dp"
+                android:textSize="22sp"
+                android:textColor="#9f0015" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:onClick="listen4">
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/sound" />
+
+            <TextView
+                android:text="Listen Four"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="30dp"
+                android:textSize="22sp"
+                android:textColor="#9f0015" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:onClick="listen5">
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/sound" />
+
+            <TextView
+                android:text="Listen Five"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="30dp"
+                android:textSize="22sp"
+                android:textColor="#9f0015" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:onClick="listen6">
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/sound" />
+
+            <TextView
+                android:text="Listen Six"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="30dp"
+                android:textSize="22sp"
+                android:textColor="#9f0015" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:onClick="listen7">
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/sound" />
+
+            <TextView
+                android:text="Listen Seven"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="30dp"
+                android:textSize="22sp"
+                android:textColor="#9f0015" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

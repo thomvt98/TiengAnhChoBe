@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.vuthithom.tienganhchobe.MainActivity"
+    android:background="@drawable/hoc">
+
+
+    <ImageView
+
+        android:id="@+id/imstart"
+        android:layout_marginTop="85dp"
+        android:layout_gravity="center"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/start" />
+
+    <ImageView
+        android:id="@+id/imintroduce"
+        android:layout_gravity="center"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/gthieu" />
+
+    <ImageView
+        android:id="@+id/imexit"
+        android:layout_gravity="center"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/exit" />
+
+</LinearLayout>
